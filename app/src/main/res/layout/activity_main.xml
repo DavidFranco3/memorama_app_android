@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BIENVENIDO AL JUEGO MEMORAMA"
+            android:layout_marginHorizontal="100dp"/>
+
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imagen1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:src="@drawable/cerrado"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/imagen2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:src="@drawable/cerrado"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/imagen3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:src="@drawable/cerrado"
+
+                    />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imagen4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:src="@drawable/cerrado"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/imagen5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:src="@drawable/cerrado"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/imagen6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:src="@drawable/cerrado"
+
+                    />
+
+            </TableRow>
+
+
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/iniciar"
+            android:text="JUEGO NUEVO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Button>
+
+    </LinearLayout>
+
+</RelativeLayout>
